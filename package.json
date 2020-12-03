@@ -1,0 +1,31 @@
+{
+  "name": "homebridge-led-strip-ble",
+  "version": "0.0.1",
+  "description": "Controll certain ble led strips with homekit",
+  "author": "Stoner221",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin", 
+    "homekit",
+    "bluetooth",
+    "bluetooth low energy",
+    "ble",
+    "led",
+    "led strip",
+    "kiko"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "engines": {
+    "node": ">=8.6.0",
+    "homebridge": ">=0.4.6"
+  },
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-5"
+  }
+}
