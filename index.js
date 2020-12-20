@@ -223,6 +223,8 @@ led_strip.prototype.noble_characteristics_discovered = function(error, character
 
   for (var characteristic of characteristics) 
   {
+  	this.log.debug("Found Characteristic: " + characteristic.uuid);
+  	
     if (characteristic.uuid == this.write_char) 
     {
       this.log.debug("Found Write Characteristic: " + characteristic.uuid);

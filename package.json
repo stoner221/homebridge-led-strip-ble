@@ -1,6 +1,6 @@
 {
   "name": "homebridge-led-strip-ble",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "Controll certain ble led strips with homekit",
   "author": "Stoner221",
   "license": "ISC",
