@@ -178,6 +178,7 @@ led_strip.prototype.noble_discovered = function(accessory)
   }
   else
   {
+    this.log.debug("Peripheral Not Empty");
     if (peripheral.address == this.address) 
     {
       this.log.debug("reconnected to Lost bulb");
