@@ -162,8 +162,10 @@ led_strip.prototype.noble_discovered = function(accessory)
 
   if (this.peripheral_selected == null) 
   {
+    this.log.debug("Peripheral Empty");
     if (peripheral.uuid == this.address)
     {
+      this.log.debug("Device Found Starting Connection");
       this.peripheral_selected = peripheral;
       this.stop_scanning();
       this.scanning = false;
